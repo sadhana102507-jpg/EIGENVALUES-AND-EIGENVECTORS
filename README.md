@@ -15,11 +15,13 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 
 ## Program:
 ```
+#Program to find the eigen values and eigen vectors.
+#Developed by:SADHANA R 
+#RegisterNumber:212225240129
 import numpy as np
 matrix=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
 eig_value,eig_vector=np.linalg.eig(matrix)
 print("Eigen values are {} and Eigen Vectors are {}".format(eig_value,eig_vector))
-
 ```
 
 ## Output:
